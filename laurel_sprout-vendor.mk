@@ -618,6 +618,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
@@ -2845,9 +2846,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libjson.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjson.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libmfpostdummy_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfpostdummy_daemon.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libmfproc_dummy_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfproc_dummy_daemon.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libmialgo_sd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_sd.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libmibokeh_660.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_660.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
@@ -3055,6 +3059,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libois_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu63165.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
@@ -3116,7 +3121,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustedapploader.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libwfdaac_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdaac_vendor.so \
