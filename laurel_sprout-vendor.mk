@@ -8,6 +8,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/laurel_sprout/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpiex.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpiex.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -385,6 +387,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/audio.primary.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.trinket.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/camera.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.trinket.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/sound_trigger.primary.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.trinket.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
@@ -1438,6 +1441,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-qti.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/hw/consumerir.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.trinket.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/hw/fingerprint.goodix_fod.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_fod.default.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/hw/sound_trigger.primary.trinket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.trinket.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
