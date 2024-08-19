@@ -8,9 +8,16 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/laurel_sprout/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_amrnb_common.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_enc_common.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_flacdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpx.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpiex.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_amrnb_common.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_flacdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libpiex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpiex.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system/lib64/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_amrnb_common.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system/lib64/libstagefright_flacdec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_flacdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -30,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpdecoder.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpencoder.so \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/libqti_performance.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqti_performance.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvideocodec.so \
@@ -46,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libqti_performance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_performance.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@3.0.so \
@@ -1381,6 +1390,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspkrprot.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_enc_common.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_flacdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
@@ -1389,14 +1401,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcenc.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_flacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacenc.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_gsmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_gsmdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_hevcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_hevcdec.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mp3dec.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_mpeg4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4dec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_mpeg4enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4enc.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_opusdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_opusdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_vpxdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxdec.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libstagefright_soft_vpxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxenc.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
@@ -1404,6 +1420,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libvorbisidec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvorbisidec.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/mibokeh_660_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_660_opencl.bin \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/miwatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/miwatermark.so \
